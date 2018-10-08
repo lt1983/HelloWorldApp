@@ -14,6 +14,14 @@
 		FBEF24FB216B4596002A3459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEF24F9216B4596002A3459 /* LaunchScreen.storyboard */; };
 		FBEF2506216B4596002A3459 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2505216B4596002A3459 /* HelloWorldTests.swift */; };
 		FBEF2511216B4596002A3459 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2510216B4596002A3459 /* HelloWorldUITests.swift */; };
+		FBEF2524216B47DD002A3459 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2522216B47DD002A3459 /* Interface.storyboard */; };
+		FBEF2526216B47DE002A3459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2525216B47DE002A3459 /* Assets.xcassets */; };
+		FBEF252D216B47DE002A3459 /* HelloWrold Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBEF252C216B47DE002A3459 /* HelloWrold Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBEF2532216B47DE002A3459 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2531216B47DE002A3459 /* InterfaceController.swift */; };
+		FBEF2534216B47DE002A3459 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2533216B47DE002A3459 /* ExtensionDelegate.swift */; };
+		FBEF2536216B47DE002A3459 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF2535216B47DE002A3459 /* NotificationController.swift */; };
+		FBEF2538216B47DF002A3459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEF2537216B47DF002A3459 /* Assets.xcassets */; };
+		FBEF253D216B47DF002A3459 /* HelloWrold.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FBEF2520216B47DC002A3459 /* HelloWrold.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,46 @@
 			remoteGlobalIDString = FBEF24EC216B4594002A3459;
 			remoteInfo = HelloWorld;
 		};
+		FBEF252E216B47DE002A3459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEF24E5216B4594002A3459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEF252B216B47DE002A3459;
+			remoteInfo = "HelloWrold Extension";
+		};
+		FBEF253B216B47DF002A3459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEF24E5216B4594002A3459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEF251F216B47DC002A3459;
+			remoteInfo = HelloWrold;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBEF2541216B47DF002A3459 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBEF252D216B47DE002A3459 /* HelloWrold Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEF2545216B47DF002A3459 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FBEF253D216B47DF002A3459 /* HelloWrold.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FBEF24ED216B4594002A3459 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +94,17 @@
 		FBEF250C216B4596002A3459 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEF2510216B4596002A3459 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		FBEF2512216B4596002A3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEF2520216B47DC002A3459 /* HelloWrold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWrold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEF2523216B47DD002A3459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FBEF2525216B47DE002A3459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEF2527216B47DE002A3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEF252C216B47DE002A3459 /* HelloWrold Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HelloWrold Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEF2531216B47DE002A3459 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FBEF2533216B47DE002A3459 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FBEF2535216B47DE002A3459 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FBEF2537216B47DF002A3459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEF2539216B47DF002A3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEF253A216B47DF002A3459 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +129,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBEF2529216B47DE002A3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +145,8 @@
 				FBEF24EF216B4594002A3459 /* HelloWorld */,
 				FBEF2504216B4596002A3459 /* HelloWorldTests */,
 				FBEF250F216B4596002A3459 /* HelloWorldUITests */,
+				FBEF2521216B47DD002A3459 /* HelloWrold */,
+				FBEF2530216B47DE002A3459 /* HelloWrold Extension */,
 				FBEF24EE216B4594002A3459 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +157,8 @@
 				FBEF24ED216B4594002A3459 /* HelloWorld.app */,
 				FBEF2501216B4596002A3459 /* HelloWorldTests.xctest */,
 				FBEF250C216B4596002A3459 /* HelloWorldUITests.xctest */,
+				FBEF2520216B47DC002A3459 /* HelloWrold.app */,
+				FBEF252C216B47DE002A3459 /* HelloWrold Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +194,29 @@
 			path = HelloWorldUITests;
 			sourceTree = "<group>";
 		};
+		FBEF2521216B47DD002A3459 /* HelloWrold */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF2522216B47DD002A3459 /* Interface.storyboard */,
+				FBEF2525216B47DE002A3459 /* Assets.xcassets */,
+				FBEF2527216B47DE002A3459 /* Info.plist */,
+			);
+			path = HelloWrold;
+			sourceTree = "<group>";
+		};
+		FBEF2530216B47DE002A3459 /* HelloWrold Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF2531216B47DE002A3459 /* InterfaceController.swift */,
+				FBEF2533216B47DE002A3459 /* ExtensionDelegate.swift */,
+				FBEF2535216B47DE002A3459 /* NotificationController.swift */,
+				FBEF2537216B47DF002A3459 /* Assets.xcassets */,
+				FBEF2539216B47DF002A3459 /* Info.plist */,
+				FBEF253A216B47DF002A3459 /* PushNotificationPayload.apns */,
+			);
+			path = "HelloWrold Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +227,12 @@
 				FBEF24E9216B4594002A3459 /* Sources */,
 				FBEF24EA216B4594002A3459 /* Frameworks */,
 				FBEF24EB216B4594002A3459 /* Resources */,
+				FBEF2545216B47DF002A3459 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FBEF253C216B47DF002A3459 /* PBXTargetDependency */,
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
@@ -181,6 +275,40 @@
 			productReference = FBEF250C216B4596002A3459 /* HelloWorldUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FBEF251F216B47DC002A3459 /* HelloWrold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEF2542216B47DF002A3459 /* Build configuration list for PBXNativeTarget "HelloWrold" */;
+			buildPhases = (
+				FBEF251E216B47DC002A3459 /* Resources */,
+				FBEF2541216B47DF002A3459 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEF252F216B47DE002A3459 /* PBXTargetDependency */,
+			);
+			name = HelloWrold;
+			productName = HelloWrold;
+			productReference = FBEF2520216B47DC002A3459 /* HelloWrold.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FBEF252B216B47DE002A3459 /* HelloWrold Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEF253E216B47DF002A3459 /* Build configuration list for PBXNativeTarget "HelloWrold Extension" */;
+			buildPhases = (
+				FBEF2528216B47DE002A3459 /* Sources */,
+				FBEF2529216B47DE002A3459 /* Frameworks */,
+				FBEF252A216B47DE002A3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWrold Extension";
+			productName = "HelloWrold Extension";
+			productReference = FBEF252C216B47DE002A3459 /* HelloWrold Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +330,12 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = FBEF24EC216B4594002A3459;
 					};
+					FBEF251F216B47DC002A3459 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FBEF252B216B47DE002A3459 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = FBEF24E8216B4594002A3459 /* Build configuration list for PBXProject "HelloWorld" */;
@@ -220,6 +354,8 @@
 				FBEF24EC216B4594002A3459 /* HelloWorld */,
 				FBEF2500216B4596002A3459 /* HelloWorldTests */,
 				FBEF250B216B4596002A3459 /* HelloWorldUITests */,
+				FBEF251F216B47DC002A3459 /* HelloWrold */,
+				FBEF252B216B47DE002A3459 /* HelloWrold Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +382,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEF251E216B47DC002A3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEF2526216B47DE002A3459 /* Assets.xcassets in Resources */,
+				FBEF2524216B47DD002A3459 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEF252A216B47DE002A3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEF2538216B47DF002A3459 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +430,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBEF2528216B47DE002A3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEF2536216B47DE002A3459 /* NotificationController.swift in Sources */,
+				FBEF2534216B47DE002A3459 /* ExtensionDelegate.swift in Sources */,
+				FBEF2532216B47DE002A3459 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +452,16 @@
 			isa = PBXTargetDependency;
 			target = FBEF24EC216B4594002A3459 /* HelloWorld */;
 			targetProxy = FBEF250D216B4596002A3459 /* PBXContainerItemProxy */;
+		};
+		FBEF252F216B47DE002A3459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEF252B216B47DE002A3459 /* HelloWrold Extension */;
+			targetProxy = FBEF252E216B47DE002A3459 /* PBXContainerItemProxy */;
+		};
+		FBEF253C216B47DF002A3459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEF251F216B47DC002A3459 /* HelloWrold */;
+			targetProxy = FBEF253B216B47DF002A3459 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +480,14 @@
 				FBEF24FA216B4596002A3459 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEF2522216B47DD002A3459 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEF2523216B47DD002A3459 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -546,6 +727,88 @@
 			};
 			name = Release;
 		};
+		FBEF253F216B47DF002A3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3576PDRXR;
+				INFOPLIST_FILE = "HelloWrold Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooffe.HelloWorld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		FBEF2540216B47DF002A3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3576PDRXR;
+				INFOPLIST_FILE = "HelloWrold Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooffe.HelloWorld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		FBEF2543216B47DF002A3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3576PDRXR;
+				IBSC_MODULE = HelloWrold_Extension;
+				INFOPLIST_FILE = HelloWrold/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooffe.HelloWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		FBEF2544216B47DF002A3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3576PDRXR;
+				IBSC_MODULE = HelloWrold_Extension;
+				INFOPLIST_FILE = HelloWrold/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooffe.HelloWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +844,24 @@
 			buildConfigurations = (
 				FBEF251C216B4596002A3459 /* Debug */,
 				FBEF251D216B4596002A3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEF253E216B47DF002A3459 /* Build configuration list for PBXNativeTarget "HelloWrold Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEF253F216B47DF002A3459 /* Debug */,
+				FBEF2540216B47DF002A3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEF2542216B47DF002A3459 /* Build configuration list for PBXNativeTarget "HelloWrold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEF2543216B47DF002A3459 /* Debug */,
+				FBEF2544216B47DF002A3459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

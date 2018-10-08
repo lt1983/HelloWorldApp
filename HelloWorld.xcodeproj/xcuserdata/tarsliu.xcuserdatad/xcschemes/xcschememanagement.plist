@@ -9,6 +9,34 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>HelloWrold (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HelloWrold.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FBEF24EC216B4594002A3459</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBEF2500216B4596002A3459</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBEF250B216B4596002A3459</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
